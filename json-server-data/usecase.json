@@ -1,0 +1,58 @@
+{
+  "allproducts": [
+    {
+      "productName": "mobile",
+      "productPrice": "20000",
+      "productimage": "https://i.ytimg.com/vi/8fojY1M4ts0/hqdefault.jpg",
+      "productDescription": "good featured mobile",
+      "productStock": "25",
+      "productCategory": "Electronics",
+      "id": 5
+    },
+    {
+      "productName": "ashok",
+      "productPrice": "fgvhbjn",
+      "productDescription": "fgvhbjn",
+      "productStock": "20",
+      "productCategory": "Electronics",
+      "productimage": "https://i.ytimg.com/vi/8fojY1M4ts0/hqdefault.jpg",
+      "id": 6
+    },
+    {
+      "id": 11,
+      "productName": "hehe",
+      "productimage": "",
+      "productPrice": "25",
+      "productDescription": "vghb",
+      "productStock": "50",
+      "productCategory": ""
+    },
+    {
+      "id": 12,
+      "productName": "mobile",
+      "productimage": "",
+      "productPrice": "50000",
+      "productDescription": "good mobile",
+      "productStock": "25",
+      "productCategory": ""
+    },
+    {
+      "id": 13,
+      "productName": "mobile",
+      "productimage": "",
+      "productPrice": "50000",
+      "productDescription": "good mobile",
+      "productStock": "25",
+      "productCategory": ""
+    },
+    {
+      "id": 14,
+      "productName": "shirt",
+      "productimage": "https://assets.ajio.com/medias/sys_master/root/ha7/he7/15216784474142/-288Wx360H-461085141-blue-MODEL.jpg",
+      "productPrice": "1199",
+      "productDescription": "Nice Shirt",
+      "productStock": "2",
+      "productCategory": "clothing"
+    }
+  ]
+}
