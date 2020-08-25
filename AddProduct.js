@@ -75,8 +75,7 @@ console.log(productRequestBody)
 
     <ScrollView>
     
-  <View>
-      <TextInput></TextInput>
+  <View style={styles.card}>
       <TextInput style={styles.inputproduct} placeholder='Enter Product Name' onChangeText={getProductName} ></TextInput><br></br>
       <TextInput style={styles.inputproduct} placeholder='Enter Image URL' onChangeText={getProductimage} ></TextInput><br></br>
       <TextInput style={styles.inputproduct} placeholder='Enter Product Price' onChangeText={getProductPrice} ></TextInput><br></br>
@@ -85,28 +84,37 @@ console.log(productRequestBody)
       <Picker style={styles.inputproduct} placeholder="Enter Category" onValueChange={getProductCategory}>
           <Picker.Item label="Select Category"/>
           <Picker.Item label="Electronics" value="Electronics" />
-          <Picker.Item label="Perfumes" value="Perfumes" />
-          <Picker.Item label="clothing" value="clothing" />
-        </Picker>
+          <Picker.Item label="Accessories" value="Accessories" />
+          <Picker.Item label="Clothing" value="Clothing" />
+        </Picker><br/><br/>
+        <Button style={styles.button} onPress ={()=>addProduct()} title="Add Product"></Button>
+        <br/>
   </View>
   
    </ScrollView>
-   <Button style={styles.button} onPress ={()=>addProduct()} title="Add Product"></Button>
+   
    </View>
   )
 }
 const styles = StyleSheet.create({
   maincontainer:{
     flex: 1,
-    backgroundColor: '#fff',
-    // alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor:'pink'
+    // backgroundColor: '#fff',
+    // // alignItems: 'center',
+    // justifyContent: 'center',
+    // backgroundColor:'pink'
 
+  },card:{
+    marginBottom:'auto',
+    marginRight:'auto',
+    marginLeft:'auto',
+    marginTop:80,
+    borderWidth:2,
+    borderColor:'#c0392b'
   },
   inputproduct:{
   borderWidth:1,
-  borderColor:'blue',
+  borderColor:'#c0392b',
   padding:8,
   margin:8,
   width:300,
@@ -116,8 +124,8 @@ button:{
   borderRadius:8,
   paddingVertical:14,
   paddingHorizontal:10,
-  backgroundColor:'green'
-
+  backgroundColor:'#949999',
+  width:20
 }
 
 });

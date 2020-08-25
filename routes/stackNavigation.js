@@ -17,8 +17,8 @@ function MyStackNavigator(){
                             screenOptions={{
                                 gestureEnabled:true,
                                 headerStyle:{
-                                    backgroundColor:'red',
-                                    height:100
+                                    backgroundColor:'grey',
+                                    height:70
                                 }
                                 }} 
                                 headerMode='float'>

@@ -1,0 +1,58 @@
+{
+  "allproducts": [
+    {
+      "productName": "Dress",
+      "productPrice": "1500",
+      "productDescription": "cotton fabric",
+      "productStock": "20",
+      "productCategory": "Clothing",
+      "productimage": "https://rukminim1.flixcart.com/image/580/696/jlv70y80/dress/g/r/j/xs-8134-zima-leto-original-imaf8vy4sz2cgbtr.jpeg?q=50",
+      "id": 6
+    },
+    {
+      "id": 12,
+      "productName": "HandBag",
+      "productimage": "https://rukminim1.flixcart.com/image/580/696/jsge4cw0/hand-messenger-bag/y/m/g/new-styles-091-shoulder-bag-avni-s-original-imafdwmjfed4hkjw.jpeg?q=50",
+      "productPrice": "800",
+      "productDescription": "ladies hand bag",
+      "productStock": "25",
+      "productCategory": "Accessories"
+    },
+    {
+      "id": 13,
+      "productName": "EarRing",
+      "productimage": "https://rukminim1.flixcart.com/image/580/696/j0y5z0w0/earring/g/k/s/ybear-31070-youbella-original-imaesm8cz55sghne.jpeg?q=50",
+      "productPrice": "250",
+      "productDescription": "Artifical earrings",
+      "productStock": "25",
+      "productCategory": "Accessoris"
+    },
+    {
+      "id": 14,
+      "productName": "Earphones",
+      "productimage": "https://rukminim1.flixcart.com/image/416/416/k6jnfrk0/headphone/b/a/j/samsung-level-u-original-imafzz9gmxu4cpg2.jpeg?q=70",
+      "productPrice": "11999",
+      "productDescription": "Wireless Earphones",
+      "productStock": "2",
+      "productCategory": "Electronics"
+    },
+    {
+      "id": 15,
+      "productName": "Mobile",
+      "productimage": "https://rukminim1.flixcart.com/image/312/312/k8ddoy80/mobile/n/m/w/realme-narzo-10-rmx2040-original-imafqectbhfgxutg.jpeg?q=70",
+      "productPrice": "12000",
+      "productDescription": "realme mobile",
+      "productStock": "5",
+      "productCategory": "Electronics"
+    },
+    {
+      "id": 16,
+      "productName": "kajal",
+      "productimage": "https://rukminim1.flixcart.com/image/612/612/jqwny4w0/kajal/c/v/q/0-7-eyeconic-kajal-twin-pack-lakme-original-imafcthtdzhzpdjg.jpeg?q=70",
+      "productPrice": "200",
+      "productDescription": "iconic",
+      "productStock": "5",
+      "productCategory": "Accessories"
+    }
+  ]
+}
